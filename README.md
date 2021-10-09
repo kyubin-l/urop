@@ -14,7 +14,12 @@ The data can be found in this [folder](https://drive.google.com/drive/folders/1Z
 
 The real life car damper data used in "noise_car_damper.ipynb" can be found in this [folder](https://drive.google.com/drive/folders/1E7n_iI5yOj757e0VXBJ3SKonVb6BJlvH?usp=sharing). 
 
-Some benchmark models can be found [here](https://drive.google.com/drive/folders/1bv3UP_33k0g7RTKQVv2VWoDjO-fm7q-E?usp=sharing). These can be imported using the command load_model(file_path_to_model). Information on some of the benchmark models can be found in the folder benchmark_models. 
+Some benchmark models can be found [here](https://drive.google.com/drive/folders/1bv3UP_33k0g7RTKQVv2VWoDjO-fm7q-E?usp=sharing). These can be imported using:
+```
+from tensorflow.keras.models import load_model
+load_model(file_path_to_model)
+```
+Information on some of the benchmark models can be found in the folder benchmark_models. 
 
 This project was supervised by Dr. Matthew de Brett, who developed the "CNNfunctions.py" script and much of the "cnn_nonlinear_vibration.ipynb" script. 
 
